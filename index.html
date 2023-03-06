@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salsa y Control</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="a">
+        <div class="container">
+            <div id="Encabezado">
+                <div id="titulo">
+                    <center>
+                        <h1>La Salsa Vive</h1>
+                    </center>
+                    <p>La salsa es un género musical bailable resultante de la síntesis del son cubano y otros géneros
+                        de música caribeña y estadounidenses como el jazz y el blues. La salsa se consolidó como un
+                        éxito comercial por músicos de origen hispano (predominantemente cubanos y puertorriqueños) en
+                        Nueva York en la década de 1960, y por la labor de quien fue su principal armador, el dominicano
+                        Johnny Pacheco.</p>
+                </div>
+
+            </div>
+            <div class="shadow">
+                <div class="section">
+                    <div class="img">
+                        <img id="fania" src="./img/salsa.jpg" alt="">
+                    </div>
+                    <div class="parrafoSect">
+                        <h4>La salsa es un ritmo que mueve al mundo, una expresión cultural que define la identidad de
+                            millones
+                            de personas, un baile que se ha convertido en puente de comunicación entre hombres y
+                            mujeres. En
+                            palabras del famoso compositor cubano Eduardo Morales Caso “la salsa es un nuevo giro de los
+                            ritmos
+                            tradicionales al son de la música cubana, es la voz cultural de una nueva generación, es la
+                            representación de la identidad cubana y latina en lugares como Nueva York”.
+                            <br>
+                            <br>
+                            Para entender un poco más de cerca este maravilloso género, que por cierto es considerado
+                            como
+                            Patrimonio Cultural de la Humanidad, es importante conocer sus raíces, su historia; entender
+                            quiénes
+                            fueron sus primeros representantes y cuál fue el legado que le dejaron en las nuevas
+                            generaciones.
+                        </h4>
+                    </div>
+                    <div class="subtitle">
+                        <h1>Datos Curiosos</h1>
+                    </div>
+                    <div class="section2">
+                        <div id="RB">
+                            <img src="./img/richie ray and bobby cruz.jpg" alt="">
+                        </div>
+                        <div id="parrafo">
+                            <h4>El dúo es conocido por ayudar a establecer la popularidad de la salsa en los años 1960 y
+                                1970. También son notables por fusionar elementos de música clásica y rock con música
+                                latina
+                                tradicional.
+                                <br> Entre sus mayores éxitos están "Richie's Jala Jala", "Agúzate", "Sonido
+                                Bestial" y "<a href="https://www.youtube.com/watch?v=7OBPduVOn00" target="_blank">Bomba
+                                    Camará</a>".
+                                También
+                                son famosos por sus canciones navideñas "Seis chorreao",
+                                "Bomba en Navidad" y "Bella es la Navidad".
+                            </h4>
+                        </div>
+                        <div class="container">
+                            <form id="formulario">
+                                <h1>formulario</h1>
+                                <input type="text" id="usuario" name="usuario" placeholder="nombre" />
+                                <input type="text" id="identificacion" name="identificacion" placeholder="Ingrese su identificacion">
+                                <input type="text" id="correo" name="correo" placeholder="correo electronico">
+                                <input type="text" id="estilo" name="estilo" placeholder="estilo de musica">
+                                <input type="text" id="tipo" name="instrumento" placeholder="que tipo de instrumento tocas">
+                                <button type="button" id="" onclick="agregar()">Enviar datos</button>
+                            </form>
+                    
+                            <div onload=" mostrarPersonas()">
+                                <ul id="result"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="b">
+        <div class="footer">
+            <div class="contact">
+                <h2>Contactanos</h2>
+                <h4>vivelasalsa@salsa.com.co</h4>
+            </div>
+        </div>
+    </section>
+    <script src="./js/formulario.js"></script>
+    <script src="./js/person.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="formulario">
+            <h1>formulario</h1>
+            <input type="text" id="usuario" name="usuario" placeholder="nombre" />
+            <input type="text" id="identificacion" name="identificacion" placeholder="Ingrese su identificacion">
+            <input type="text" id="correo" name="correo" placeholder="correo electronico">
+            <input type="text" id="estilo" name="estilo" placeholder="estilo de musica">
+            <input type="text" id="tipo" name="instrumento" placeholder="que tipo de instrumento tocas">
+            <button type="button" id="" onclick="agregar()">Enviar datos</button>
+        </form>
+
+        <div onload=" mostrarPersonas()">
+            <ul id="result"></ul>
+        </div>
+    </div>
+
+    <script src="../js/person.js"></script>
+    <script src="../js/formulario.js"></script>
+</body>
+
+
+
+</html>
