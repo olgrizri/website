@@ -1,20 +1,21 @@
-form{
+#formulario{
     background: #7083e3;
-    width: 360px;
+    width: 100%;
+    height: 100%;
     border: 1px solid #4e4d4d;
     border-radius: 4px;
     box-shadow: 0 0 10px #000;
-    margin: 100px;
+
 }
 
-form h1{
+#formulario h1{
     text-align: center;
     color: #fff;
     font-size: 30pt;
     margin: 10px 30px;
 }
 
-form input{
+#formulario input{
     width: 280px;
     height: 35px;
     padding: 0px;
@@ -23,7 +24,7 @@ form input{
     margin: 10px 30px;
 }
 
-form button{
+#formulario button{
     width: 135px;
     margin: 20px 0px 30px 100px;
     height: 50px;
@@ -33,6 +34,6 @@ form button{
     box-shadow: 0px 2px opx #000;
     border-radius: 3px;
 }
-form button:hover{
+#formulario button:hover{
     background: #3a3a3a;
 }
